@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Quota Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quote-box">
+      <h2>Quote of the day</h2>
+      <blockquote id="quote">Loading...</blockquote>
+      <span id="author">Loadding...</span>
+      <div>
+        <button onclick="getQuote(api_url)">New Quote</button>
+        <button onclick="tweetShare()">
+          <img src="./images/pngwing.com (1).png" alt="" /> Tweet
+        </button>
+      </div>
+    </div>
+    <button id="fullscreen-btn">Full Screen</button>
+    <script src="script.js"></script>
+  </body>
+</html>
